@@ -83,9 +83,8 @@ namespace TicketOrderFunction
 
                     //execute the command
                     await cmd.ExecuteNonQueryAsync();
-                }
 
-                //using automatically closes connection
+                }//using automatically closes connection
             }
         }
     }
